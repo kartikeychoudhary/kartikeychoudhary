@@ -5,7 +5,7 @@
 -->
 - 🔭 I’m currently working on TodoFlutter
 - 🌱 I’m currently learning Flutter
-- 💬 Ask me about React, Flutter, Python, Android
+- 💬 Ask me about Spring Boot, Java Core, Flutter, Python, Android, Competetive programming.
 - 📫 How to reach me: [ Linkedin ](https://www.linkedin.com/in/kartikeychoudhary/) [ Instagram ](https://www.instagram.com/kartikey31choudhary/)
 - ⚡ Fun fact: I convert Caffine to Code..
 
