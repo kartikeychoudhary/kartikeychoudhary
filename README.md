@@ -4,7 +4,7 @@
 **kartikeychoudhary/kartikeychoudhary** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
 - 🔭 I’m currently working on Portfolio website
-- 💬 Ask me about Spring, Java, Angular, Python, Android, Competetive programming.
+- 💬 Ask me about Spring, Java, Angular, Python, Android, competitive programming.
 - 📫 How to reach me: [ Linkedin ](https://www.linkedin.com/in/kartikeychoudhary/) [ Instagram ](https://www.instagram.com/kartikey31choudhary/)
 - ⚡ Fun fact: I convert Caffine to Code..
 
