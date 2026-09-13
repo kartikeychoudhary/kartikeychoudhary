@@ -1,30 +1,77 @@
-# 💫 About Me:
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
+  <img alt="Kartikey Choudhary — From complex systems to everyday tools. Full-stack engineering, applied AI, and self-hosted software." src="assets/header-light.svg" width="100%">
+</picture>
 
-**Senior Dev** 🚀
+# Hi, I'm Kartikey.
 
-* 💻 Building robust systems with **Java/Spring Boot** & **Angular**
-* 🏨 Working on hospitality & hotel management platforms
-* 🧪 Big on **TDD**, code quality & clean architecture
-* ⚡ Exploring AI-assisted development workflows
-* 🛠️ Currently tinkering with **Minted** — a personal budget & expense management app
+I'm a **Senior Software Engineer** building products with **Java, Spring Boot, and Angular**. My work spans hospitality, enterprise analytics, and fintech tooling. Outside that, I build software for everyday problems: managing money, organizing a workspace, and making AI useful in the development process.
 
-📫 Let's connect!
+[Portfolio](https://kartikeychoudhary.com) &nbsp; / &nbsp; [LinkedIn](https://www.linkedin.com/in/kartikeychoudhary/) &nbsp; / &nbsp; [Email](mailto:kartikey31choudhary@gmail.com) &nbsp; / &nbsp; [Hugging Face](https://huggingface.co/kartikey31/txn-parser)
+
+## What I'm building around
+
+- **AI with verifiable results.** Development workflows with explicit review gates, and small models that turn transaction text into structured data.
+- **Software you can own.** Self-hosted tools, local storage, and useful interfaces for personal finance and daily routines.
+- **Care across the stack.** From API contracts and data models to the details of a dashboard. TDD, clean architecture, and considered UI design.
+
+## Selected builds
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/kartikeychoudhary/copilot_workforce">Copilot Workforce ↗</a></h3>
+      <p>A development workflow that takes a Jira story through planning, implementation, and review, with seven evidence gates and a growing project knowledge base.</p>
+      <p><sub>DEVELOPER TOOLS · COPILOT · PYTHON</sub></p>
+      <p>Also: <a href="https://github.com/kartikeychoudhary/ai_workforce">AI Workforce</a>, the portable CLI workflow it builds on.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/kartikeychoudhary/txn-parser">Transaction Parser ↗</a></h3>
+      <p>Distilling small language models to turn voice-transcribed expenses into structured JSON. Training, evaluation, and GGUF exports for use on a device.</p>
+      <p><sub>APPLIED AI · PYTHON · LORA · LLAMA.CPP</sub></p>
+      <p><a href="https://huggingface.co/kartikey31/txn-parser">Explore the published models</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/kartikeychoudhary/minted">Minted ↗</a></h3>
+      <p>A personal finance app for accounts, budgets, transactions, and spending analytics. A full stack project with statement imports and Docker deployment.</p>
+      <p><sub>PERSONAL FINANCE · ANGULAR · SPRING BOOT · MYSQL</sub></p>
+      <p><a href="https://github.com/kartikeychoudhary/minted/blob/main/screenshots/README.md">See the interface</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/kartikeychoudhary/OnTrackTab">ZenBoard / OnTrackTab ↗</a></h3>
+      <p>A calmer Chrome new tab with bookmark search, notes, weather, and a customizable widget layout. Settings and workspace preferences stay local.</p>
+      <p><sub>BROWSER EXTENSION · REACT · TYPESCRIPT</sub></p>
+      <p><a href="https://github.com/kartikeychoudhary/OnTrackTab#screenshots">See the workspace</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/kartikeychoudhary/Catalogue">Angular Catalogue ↗</a></h3>
+      <p>Three component libraries exploring Swiss editorial, neo-brutalist, and glassmorphic design, each with a working Angular demo.</p>
+      <p><sub>UI SYSTEMS · ANGULAR · CSS</sub></p>
+      <p><a href="https://kartikeychoudhary.github.io/Catalogue/catalogue1/">Swiss</a> · <a href="https://kartikeychoudhary.github.io/Catalogue/catalogue2/">Brutalist</a> · <a href="https://kartikeychoudhary.github.io/Catalogue/catalogue3/">Glass</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/kartikeychoudhary/kairos-screenshots">Kairos ↗</a></h3>
+      <p>A self-hosted research workbench for Indian equities, with report workflows, charts, and factor breakdowns. A look at how I design interfaces for complex data.</p>
+      <p><sub>RESEARCH TOOLS · DATA VISUALIZATION</sub></p>
+      <p><a href="https://github.com/kartikeychoudhary/kairos-screenshots#contents">Public interface gallery</a> · App source is private; screenshots use placeholder data.</p>
+    </td>
+  </tr>
+</table>
+
+## Tools I reach for
+
+| Area | Toolkit |
+| :--- | :--- |
+| **Backend** | Java · Spring Boot · Python · FastAPI · Node.js |
+| **Interfaces** | Angular · TypeScript · React · Flutter · Tailwind CSS |
+| **Data & deployment** | PostgreSQL · MySQL · SQLite · Docker · Nginx · GitHub Actions |
+| **Applied AI** | Model distillation · LoRA fine-tuning · GGUF · llama.cpp · Agent workflows |
 
 ---
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/kartikeychoudhary) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:kartikey31choudhary@gmail.com) 
-
----
-
-# 💻 Tech Stack:
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=Hibernate&logoColor=white) ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Datadog](https://img.shields.io/badge/datadog-%23632CA6.svg?style=for-the-badge&logo=datadog&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![SonarLint](https://img.shields.io/badge/SonarLint-CB2029?style=for-the-badge&logo=SONARLINT&logoColor=white) ![SonarQube](https://img.shields.io/badge/SonarQube-black?style=for-the-badge&logo=sonarqube&logoColor=4E9BCD) ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) ![Jasmine](https://img.shields.io/badge/jasmine-%238A4182.svg?style=for-the-badge&logo=jasmine&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![Apache Tomcat](https://img.shields.io/badge/apache%20tomcat-%23F8DC75.svg?style=for-the-badge&logo=apache-tomcat&logoColor=black) ![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Bitbucket](https://img.shields.io/badge/bitbucket-%230047B3.svg?style=for-the-badge&logo=bitbucket&logoColor=white) ![Jasmine](https://img.shields.io/badge/-Jasmine-%238A4182?style=for-the-badge&logo=Jasmine&logoColor=white) ![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-C51A4A?style=for-the-badge&logo=Raspberry-Pi) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=Prometheus&logoColor=white) ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=kartikeychoudhary&theme=dark&hide_border=false&include_all_commits=true&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=kartikeychoudhary&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=kartikeychoudhary&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
-
----
-[![](https://visitcount.itsvg.in/api?id=kartikeychoudhary&icon=0&color=0)](https://visitcount.itsvg.in)
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+Interested in thoughtful tools, practical AI, or building across the stack? [Let's connect.](mailto:kartikey31choudhary@gmail.com)

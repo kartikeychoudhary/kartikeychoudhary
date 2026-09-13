@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="350" viewBox="0 0 1000 350" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Kartikey Choudhary — Software Engineer</title>
+  <desc id="desc">From complex systems to everyday tools. Full-stack engineering, applied AI, and self-hosted software.</desc>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#D9DCCE"/>
+    </pattern>
+  </defs>
+  <rect width="1000" height="350" rx="16" fill="#F2F1E8"/>
+  <rect x="690" y="24" width="286" height="256" fill="url(#grid)"/>
+  <path d="M40 34H66" stroke="#526D30" stroke-width="4"/>
+  <text x="80" y="40" fill="#354536" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" letter-spacing="2.1">KARTIKEY CHOUDHARY</text>
+  <text x="40" y="127" fill="#20342B" font-family="Georgia, 'Times New Roman', serif" font-size="57" letter-spacing="-1.8">From complex systems</text>
+  <text x="40" y="195" fill="#526D30" font-family="Georgia, 'Times New Roman', serif" font-size="57" letter-spacing="-1.8">to everyday tools.</text>
+  <text x="43" y="244" fill="#596458" font-family="Arial, Helvetica, sans-serif" font-size="18">An engineer's mind. A maker's curiosity.</text>
+  <g stroke="#87917D" stroke-width="1.5">
+    <path d="M758 94H816V156H898V226H838"/>
+    <path d="M738 214H774V156H816"/>
+    <path d="M880 71V94H816"/>
+  </g>
+  <rect x="715" y="69" width="52" height="52" rx="12" fill="#E8ECDD" stroke="#879A75"/>
+  <path d="m737 85-10 10 10 10m9-20 10 10-10 10" stroke="#526D30" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="850" y="132" width="52" height="52" rx="12" fill="#526D30"/>
+  <path d="M865 146H887V169H865zM865 153H887M872 153V169" stroke="#F2F1E8" stroke-width="1.8" stroke-linejoin="round"/>
+  <rect x="798" y="202" width="52" height="52" rx="12" fill="#E8ECDD" stroke="#879A75"/>
+  <path d="M813 239V226M824 239V217M835 239V222" stroke="#526D30" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="880" cy="67" r="5" fill="#B46940"/>
+  <circle cx="734" cy="214" r="5" fill="#B46940"/>
+  <circle cx="816" cy="156" r="4" fill="#526D30"/>
+  <path d="M40 282H960" stroke="#D0D7C5"/>
+  <g fill="#4F5E4A" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="1.5">
+    <text x="40" y="318">FULL-STACK ENGINEERING</text>
+    <text x="370" y="318">APPLIED AI</text>
+    <text x="581" y="318">SELF-HOSTED SOFTWARE</text>
+  </g>
+  <path d="M935 306H950V321M949 307 933 323" stroke="#526D30" stroke-width="2"/>
+</svg>
