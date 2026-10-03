@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
-  <img alt="Kartikey Choudhary. From database rows to the last pixel. Full-stack engineering, Android, applied AI, and self-hosted software." src="assets/header-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
+  <img alt="Kartikey Choudhary. From database rows to the last pixel. Full-stack engineering, Android, applied AI, and self-hosted software." src="assets/hero-light.svg" width="100%">
 </picture>
 
 <p align="center">
@@ -22,7 +22,7 @@ After hours I build the software I want to live with: an expense tracker that re
 
 <br>
 
-<a href="#paisa-trail"><img src="assets/projects/paisa-trail.svg" alt="Animated illustration of bank SMS messages becoming an encrypted, categorised ledger with a budget alert" width="100%"></a>
+<a href="#paisa-trail"><img src="assets/cards/paisa-trail.svg" alt="Animated illustration of bank SMS messages becoming an encrypted, categorised ledger with a budget alert" width="100%"></a>
 
 ### Paisa Trail
 
@@ -35,14 +35,14 @@ A private Android expense tracker that turns the SMS your banks already send int
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://komorebi.kartikey.cv/"><img src="assets/projects/komorebi.svg" alt="Animated metro carriage window at dusk with scenery gliding past, rain and a music equaliser" width="100%"></a>
+      <a href="https://komorebi.kartikey.cv/"><img src="assets/cards/komorebi.svg" alt="Animated metro carriage window at dusk with scenery gliding past, rain and a music equaliser" width="100%"></a>
       <h3><a href="https://komorebi.kartikey.cv/">Komorebi 木漏れ日 ↗</a></h3>
       <p>An illustrated metro carriage for the screen beside your day. Six landscapes, 17 lines from Delhi to Tokyo, passengers who board and leave, rain on the glass, synced lyrics, and your own Spotify through PKCE. Rendered as a native 4K canvas scene.</p>
       <p><sub>IMMERSIVE WEB · REACT · VINEXT · CANVAS · SPOTIFY · DOCKER</sub></p>
       <p><a href="https://komorebi.kartikey.cv/">Take the ride</a></p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://hub.docker.com/r/kartikey31choudhary/tabbook"><img src="assets/projects/tabbook.svg" alt="Animated fretboard with vibrating strings and colour-coded notes beside a circle of fifths" width="100%"></a>
+      <a href="https://hub.docker.com/r/kartikey31choudhary/tabbook"><img src="assets/cards/tabbook.svg" alt="Animated fretboard with vibrating strings and colour-coded notes beside a circle of fifths" width="100%"></a>
       <h3><a href="https://hub.docker.com/r/kartikey31choudhary/tabbook">Tabbook ↗</a></h3>
       <p>A self-hosted practice room for guitar: a song library, section-by-section practice with loops and a metronome, 420 chord formulas, an interactive circle of fifths, and JSON/CSV import from your favourite AI tool. Everything lives in your own SQLite file.</p>
       <p><sub>MUSIC · REACT 19 · TYPESCRIPT · SQLITE · DOCKER</sub></p>
@@ -51,14 +51,14 @@ A private Android expense tracker that turns the SMS your banks already send int
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <img src="assets/projects/portside.svg" alt="Animated deployment pipeline from source through build and preflight to publish, fanning out to three targets" width="100%">
+      <img src="assets/cards/portside.svg" alt="Animated deployment pipeline from source through build and preflight to publish, fanning out to three targets" width="100%">
       <h3>Portside</h3>
       <p>A single-operator deployment console. Upload a ZIP or build a private Git repo in an isolated Docker runner, inspect preflight checks, then publish to your own server, Cloudflare Pages, or GitHub Pages. Previews, pinned releases, and one-click rollback.</p>
       <p><sub>DEVOPS · ANGULAR · NODE.JS · TYPESCRIPT · SQLITE · DOCKER</sub></p>
       <p><sub>Source is private for now.</sub></p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/kartikeychoudhary/txn-parser"><img src="assets/projects/parser.svg" alt="Animated voice note flowing through a small neural network into JSON fields" width="100%"></a>
+      <a href="https://github.com/kartikeychoudhary/txn-parser"><img src="assets/cards/parser.svg" alt="Animated voice note flowing through a small neural network into JSON fields" width="100%"></a>
       <h3><a href="https://github.com/kartikeychoudhary/txn-parser">Transaction Parser ↗</a></h3>
       <p>Distilling small language models that turn voice-transcribed expenses into structured JSON. Training, evaluation, and GGUF exports small enough to run on a phone.</p>
       <p><sub>APPLIED AI · PYTHON · LORA · LLAMA.CPP</sub></p>
@@ -67,14 +67,14 @@ A private Android expense tracker that turns the SMS your banks already send int
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/kartikeychoudhary/minted"><img src="assets/projects/minted.svg" alt="Animated income and spending donut with filling account, budget and spending bars" width="100%"></a>
+      <a href="https://github.com/kartikeychoudhary/minted"><img src="assets/cards/minted.svg" alt="Animated income and spending donut with filling account, budget and spending bars" width="100%"></a>
       <h3><a href="https://github.com/kartikeychoudhary/minted">Minted ↗</a></h3>
       <p>A personal finance app for accounts, budgets, transactions, and spending analytics. Full stack, with statement imports and Docker deployment.</p>
       <p><sub>PERSONAL FINANCE · ANGULAR · SPRING BOOT · MYSQL</sub></p>
       <p><a href="https://github.com/kartikeychoudhary/minted/blob/main/screenshots/README.md">See the interface</a></p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/kartikeychoudhary/OnTrackTab"><img src="assets/projects/zenboard.svg" alt="Animated calm new tab with a ticking clock, search bar and widgets" width="100%"></a>
+      <a href="https://github.com/kartikeychoudhary/OnTrackTab"><img src="assets/cards/zenboard.svg" alt="Animated calm new tab with a ticking clock, search bar and widgets" width="100%"></a>
       <h3><a href="https://github.com/kartikeychoudhary/OnTrackTab">ZenBoard / OnTrackTab ↗</a></h3>
       <p>A calmer Chrome new tab with bookmark search, notes, weather, and a customizable widget layout. Settings and workspace preferences stay local.</p>
       <p><sub>BROWSER EXTENSION · REACT · TYPESCRIPT</sub></p>
@@ -83,14 +83,14 @@ A private Android expense tracker that turns the SMS your banks already send int
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/kartikeychoudhary/Catalogue"><img src="assets/projects/catalogue.svg" alt="Animated Swiss, brutalist and glass versions of the same button" width="100%"></a>
+      <a href="https://github.com/kartikeychoudhary/Catalogue"><img src="assets/cards/catalogue.svg" alt="Animated Swiss, brutalist and glass versions of the same button" width="100%"></a>
       <h3><a href="https://github.com/kartikeychoudhary/Catalogue">Angular Catalogue ↗</a></h3>
       <p>Three component libraries exploring Swiss editorial, neo-brutalist, and glassmorphic design, each with a working Angular demo.</p>
       <p><sub>UI SYSTEMS · ANGULAR · CSS</sub></p>
       <p><a href="https://kartikeychoudhary.github.io/Catalogue/catalogue1/">Swiss</a> · <a href="https://kartikeychoudhary.github.io/Catalogue/catalogue2/">Brutalist</a> · <a href="https://kartikeychoudhary.github.io/Catalogue/catalogue3/">Glass</a></p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/kartikeychoudhary/kairos-screenshots"><img src="assets/projects/kairos.svg" alt="Animated price line over candlesticks beside a pulsing factor matrix, placeholder data" width="100%"></a>
+      <a href="https://github.com/kartikeychoudhary/kairos-screenshots"><img src="assets/cards/kairos.svg" alt="Animated price line over candlesticks beside a pulsing factor matrix, placeholder data" width="100%"></a>
       <h3><a href="https://github.com/kartikeychoudhary/kairos-screenshots">Kairos ↗</a></h3>
       <p>A self-hosted research workbench for Indian equities, with report workflows, charts, and factor breakdowns. A look at how I design interfaces for dense data.</p>
       <p><sub>RESEARCH TOOLS · ANGULAR · FASTAPI · POSTGRESQL</sub></p>
