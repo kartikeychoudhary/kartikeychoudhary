@@ -1,1 +1,72 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="250" viewBox="0 0 600 250" role="img" aria-labelledby="title"><title id="title">Small models. Structured results.</title><rect x="0.5" y="0.5" width="599" height="249" rx="12" fill="#172521" stroke="#354B40"/><text x="24" y="30" fill="#D4ED83" font-family="Arial,Helvetica,sans-serif" font-size="11" letter-spacing="2" font-weight="700">02 / APPLIED AI</text><rect x="24" y="64" width="240" height="112" rx="9" fill="#253A32" stroke="#466153"/><text x="40" y="87" fill="#D4ED83" font-family="Arial,Helvetica,sans-serif" font-size="10" letter-spacing="1">TRANSACTION TEXT</text><text x="40" y="121" fill="#F0F3E7" font-family="Arial,Helvetica,sans-serif" font-size="19" >“500 rs on groceries”</text><path d="M277 120h34m-7-7 7 7-7 7" fill="none" stroke="#D4ED83" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><rect x="324" y="64" width="252" height="112" rx="9" fill="#253A32" stroke="#466153"/><text x="340" y="87" fill="#D4ED83" font-family="Arial,Helvetica,sans-serif" font-size="10" letter-spacing="1">STRUCTURED OUTPUT</text><text x="340" y="115" fill="#F0F3E7" font-family="Arial,Helvetica,sans-serif" font-size="16" >{ &quot;amount&quot;: 500,</text><text x="350" y="141" fill="#F0F3E7" font-family="Arial,Helvetica,sans-serif" font-size="15" >&quot;category&quot;: &quot;groceries&quot; }</text><text x="24" y="224" fill="#F0F3E7" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="600">Small models. Structured results.</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="260" viewBox="0 0 600 260" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Transaction Parser — small models, structured results.</title>
+  <desc id="desc">Animated illustration: a spoken expense becomes a waveform, flows through a small neural network, and is written out as JSON fields.</desc>
+  <style>
+    .sans{font-family:'Segoe UI',Inter,Arial,Helvetica,sans-serif}
+    .mono{font-family:'JetBrains Mono','Cascadia Code',Consolas,Menlo,monospace}
+    .j1{animation:j1 7s infinite}.j2{animation:j2 7s infinite}.j3{animation:j3 7s infinite}.j4{animation:j4 7s infinite}
+    @keyframes j1{0%,30%{opacity:0}34%,94%{opacity:1}100%{opacity:0}}
+    @keyframes j2{0%,42%{opacity:0}46%,94%{opacity:1}100%{opacity:0}}
+    @keyframes j3{0%,54%{opacity:0}58%,94%{opacity:1}100%{opacity:0}}
+    @keyframes j4{0%,66%{opacity:0}70%,94%{opacity:1}100%{opacity:0}}
+    .nd{animation:nd 1.8s ease-in-out infinite}
+    .e1{animation-delay:.3s}.e2{animation-delay:.6s}.e3{animation-delay:.9s}
+    @keyframes nd{0%,100%{fill:#3A1F38}50%{fill:#FF6B9A}}
+    .caret{animation:blink 1s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <defs>
+    <linearGradient id="xbg" x1="0" y1="0" x2="600" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#170B1A"/><stop offset="1" stop-color="#22101F"/>
+    </linearGradient>
+    <clipPath id="type"><rect x="24" y="0" width="0" height="260"><animate attributeName="width" values="0;0;196;196;0" keyTimes="0;.04;.24;.96;1" dur="7s" repeatCount="indefinite"/></rect></clipPath>
+  </defs>
+  <rect width="600" height="260" rx="14" fill="url(#xbg)"/>
+  <rect x=".5" y=".5" width="599" height="259" rx="13.5" stroke="#43213E"/>
+  <text x="24" y="32" class="sans" fill="#FF6B9A" font-size="11" font-weight="700" letter-spacing="2">05 / APPLIED AI · DISTILLATION · LORA · GGUF</text>
+
+  <!-- voice -->
+  <rect x="24" y="56" width="196" height="132" rx="12" fill="#231022" stroke="#4A2443"/>
+  <text x="40" y="78" class="sans" fill="#FFD166" font-size="9.5" font-weight="700" letter-spacing="1.4">VOICE NOTE</text>
+  <g fill="#FF6B9A">
+    <rect x="40" y="96" width="4" height="20" rx="2"><animate attributeName="height" values="6;26;10;6" dur=".8s" repeatCount="indefinite"/><animate attributeName="y" values="103;93;101;103" dur=".8s" repeatCount="indefinite"/></rect>
+    <rect x="48" y="96" width="4" height="20" rx="2"><animate attributeName="height" values="18;6;24;18" dur=".7s" repeatCount="indefinite"/><animate attributeName="y" values="97;103;94;97" dur=".7s" repeatCount="indefinite"/></rect>
+    <rect x="56" y="96" width="4" height="20" rx="2"><animate attributeName="height" values="10;28;8;10" dur=".9s" repeatCount="indefinite"/><animate attributeName="y" values="101;92;102;101" dur=".9s" repeatCount="indefinite"/></rect>
+    <rect x="64" y="96" width="4" height="20" rx="2"><animate attributeName="height" values="24;10;18;24" dur=".75s" repeatCount="indefinite"/><animate attributeName="y" values="94;101;97;94" dur=".75s" repeatCount="indefinite"/></rect>
+    <rect x="72" y="96" width="4" height="20" rx="2"><animate attributeName="height" values="8;20;6;8" dur=".85s" repeatCount="indefinite"/><animate attributeName="y" values="102;96;103;102" dur=".85s" repeatCount="indefinite"/></rect>
+    <rect x="80" y="96" width="4" height="20" rx="2"><animate attributeName="height" values="16;6;22;16" dur=".65s" repeatCount="indefinite"/><animate attributeName="y" values="98;103;95;98" dur=".65s" repeatCount="indefinite"/></rect>
+    <rect x="88" y="96" width="4" height="20" rx="2"><animate attributeName="height" values="6;18;10;6" dur=".95s" repeatCount="indefinite"/><animate attributeName="y" values="103;97;101;103" dur=".95s" repeatCount="indefinite"/></rect>
+  </g>
+  <g clip-path="url(#type)">
+    <text x="40" y="146" class="sans" fill="#FBE7EF" font-size="15">“500 on groceries,</text>
+    <text x="40" y="168" class="sans" fill="#FBE7EF" font-size="15">paid by UPI”</text>
+  </g>
+
+  <!-- tiny network -->
+  <g stroke="#5A2B52" stroke-width="1">
+    <path d="M238 96l56-20M238 96l56 24M238 96l56 68M238 148l56-72M238 148l56-28M238 148l56 16M294 76l56 26M294 120l56-18M294 164l56-62M294 76l56 70M294 120l56 26M294 164l56-18"/>
+  </g>
+  <path d="M220 122H238M350 124H368" stroke="#FFD166" stroke-width="1.5" stroke-dasharray="3 4">
+    <animate attributeName="stroke-dashoffset" values="0;-14" dur=".6s" repeatCount="indefinite"/>
+  </path>
+  <g stroke="#FF6B9A" stroke-width="1.5">
+    <circle class="nd" cx="238" cy="96" r="7"/><circle class="nd" cx="238" cy="148" r="7"/>
+    <circle class="nd e1" cx="294" cy="76" r="7"/><circle class="nd e2" cx="294" cy="120" r="7"/><circle class="nd e1" cx="294" cy="164" r="7"/>
+    <circle class="nd e3" cx="350" cy="102" r="7"/><circle class="nd e3" cx="350" cy="146" r="7"/>
+  </g>
+  <text x="294" y="196" text-anchor="middle" class="mono" fill="#B07A9E" font-size="9.5">distilled · on-device</text>
+
+  <!-- JSON -->
+  <rect x="368" y="56" width="208" height="132" rx="12" fill="#231022" stroke="#4A2443"/>
+  <text x="384" y="78" class="sans" fill="#FFD166" font-size="9.5" font-weight="700" letter-spacing="1.4">STRUCTURED JSON</text>
+  <g class="mono" font-size="12">
+    <text x="384" y="102" fill="#C9A7FF">{</text>
+    <text class="j1" x="396" y="120"><tspan fill="#FF9DBC">"amount"</tspan><tspan fill="#C9A7FF">: </tspan><tspan fill="#FFD166">500</tspan><tspan fill="#C9A7FF">,</tspan></text>
+    <text class="j2" x="396" y="138"><tspan fill="#FF9DBC">"category"</tspan><tspan fill="#C9A7FF">: </tspan><tspan fill="#9BE7C4">"groceries"</tspan><tspan fill="#C9A7FF">,</tspan></text>
+    <text class="j3" x="396" y="156"><tspan fill="#FF9DBC">"mode"</tspan><tspan fill="#C9A7FF">: </tspan><tspan fill="#9BE7C4">"upi"</tspan></text>
+    <text class="j4" x="384" y="174" fill="#C9A7FF">}<tspan class="caret" fill="#FFD166"> ▌</tspan></text>
+  </g>
+
+  <text x="24" y="238" class="sans" fill="#FFF0F5" font-size="19" font-weight="600">Small models. Structured results.</text>
+</svg>

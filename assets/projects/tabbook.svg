@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="260" viewBox="0 0 600 260" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Tabbook — a private practice room for your guitar.</title>
+  <desc id="desc">Animated illustration: six vibrating guitar strings on a fretboard with colour-coded notes lighting up in a scale, beside a circle of fifths with a rotating highlight.</desc>
+  <style>
+    .sans{font-family:'Segoe UI',Inter,Arial,Helvetica,sans-serif}
+    .mono{font-family:'JetBrains Mono','Cascadia Code',Consolas,Menlo,monospace}
+    .n{animation:play 4.8s infinite;transform-box:fill-box;transform-origin:center;opacity:.35}
+    @keyframes play{0%,100%{opacity:.35;transform:scale(1)}6%{opacity:1;transform:scale(1.45)}16%{opacity:1;transform:scale(1)}30%{opacity:.35}}
+    .d1{animation-delay:0s}.d2{animation-delay:.6s}.d3{animation-delay:1.2s}.d4{animation-delay:1.8s}.d5{animation-delay:2.4s}.d6{animation-delay:3s}.d7{animation-delay:3.6s}.d8{animation-delay:4.2s}
+    .beat{animation:beat 1s steps(1) infinite}
+    @keyframes beat{0%{opacity:1}12%,100%{opacity:.2}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}.n{opacity:1}}
+  </style>
+  <defs>
+    <linearGradient id="tbg" x1="0" y1="0" x2="600" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#15122A"/><stop offset="1" stop-color="#1D1638"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="60" x2="0" y2="196" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2A2248"/><stop offset="1" stop-color="#211A3C"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="260" rx="14" fill="url(#tbg)"/>
+  <rect x=".5" y=".5" width="599" height="259" rx="13.5" stroke="#3A3060"/>
+  <text x="24" y="32" class="sans" fill="#A999ED" font-size="11" font-weight="700" letter-spacing="2">03 / MUSIC · REACT 19 · SQLITE · DOCKER</text>
+
+  <!-- fretboard -->
+  <rect x="24" y="56" width="352" height="140" rx="10" fill="url(#wood)" stroke="#3A3060"/>
+  <rect x="24" y="56" width="8" height="140" rx="3" fill="#E8E2FF"/>
+  <g stroke="#4B4078" stroke-width="2"><path d="M96 58v136M164 58v136M228 58v136M288 58v136M344 58v136"/></g>
+  <g fill="#4B4078"><circle cx="196" cy="126" r="4"/><circle cx="316" cy="126" r="4"/></g>
+  <g stroke="#D9D3F5" stroke-linecap="round">
+    <path d="M32 70H376" stroke-width="1"><animate attributeName="d" values="M32 70Q204 70 376 70;M32 70Q204 67 376 70;M32 70Q204 73 376 70;M32 70Q204 70 376 70" dur=".18s" repeatCount="indefinite"/></path>
+    <path d="M32 94H376" stroke-width="1.3"><animate attributeName="d" values="M32 94Q204 94 376 94;M32 94Q204 90 376 94;M32 94Q204 98 376 94;M32 94Q204 94 376 94" dur=".22s" repeatCount="indefinite"/></path>
+    <path d="M32 118H376" stroke-width="1.6"><animate attributeName="d" values="M32 118Q204 118 376 118;M32 118Q204 113 376 118;M32 118Q204 123 376 118;M32 118Q204 118 376 118" dur=".26s" repeatCount="indefinite"/></path>
+    <path d="M32 142H376" stroke-width="2"><animate attributeName="d" values="M32 142Q204 142 376 142;M32 142Q204 137 376 142;M32 142Q204 147 376 142;M32 142Q204 142 376 142" dur=".3s" repeatCount="indefinite"/></path>
+    <path d="M32 166H376" stroke-width="2.4"><animate attributeName="d" values="M32 166Q204 166 376 166;M32 166Q204 160 376 166;M32 166Q204 172 376 166;M32 166Q204 166 376 166" dur=".36s" repeatCount="indefinite"/></path>
+    <path d="M32 190H376" stroke-width="2.8" opacity=".9"><animate attributeName="d" values="M32 190Q204 190 376 190;M32 190Q204 184 376 190;M32 190Q204 196 376 190;M32 190Q204 190 376 190" dur=".42s" repeatCount="indefinite"/></path>
+  </g>
+  <!-- A minor pentatonic, coloured by pitch -->
+  <g class="mono" font-size="9" font-weight="700" text-anchor="middle">
+    <g class="n d1"><circle cx="130" cy="190" r="10" fill="#8EB6EF"/><text x="130" y="193" fill="#15122A">A</text></g>
+    <g class="n d2"><circle cx="258" cy="190" r="10" fill="#7BD0B6"/><text x="258" y="193" fill="#15122A">C</text></g>
+    <g class="n d3"><circle cx="130" cy="166" r="10" fill="#E8CF77"/><text x="130" y="169" fill="#15122A">D</text></g>
+    <g class="n d4"><circle cx="258" cy="166" r="10" fill="#F2A7C3"/><text x="258" y="169" fill="#15122A">E</text></g>
+    <g class="n d5"><circle cx="130" cy="142" r="10" fill="#A999ED"/><text x="130" y="145" fill="#15122A">G</text></g>
+    <g class="n d6"><circle cx="258" cy="142" r="10" fill="#8EB6EF"/><text x="258" y="145" fill="#15122A">A</text></g>
+    <g class="n d7"><circle cx="196" cy="118" r="10" fill="#7BD0B6"/><text x="196" y="121" fill="#15122A">C</text></g>
+    <g class="n d8"><circle cx="258" cy="118" r="10" fill="#E8CF77"/><text x="258" y="121" fill="#15122A">D</text></g>
+  </g>
+
+  <!-- circle of fifths -->
+  <g transform="translate(488 124)">
+    <circle r="70" fill="#1A1533" stroke="#3A3060"/>
+    <circle r="44" fill="#15122A" stroke="#3A3060"/>
+    <path d="M0-70A70 70 0 0 1 35-60.6L22-38.1A44 44 0 0 0 0-44z" fill="#A999ED" opacity=".85" transform="rotate(-15)">
+      <animateTransform attributeName="transform" type="rotate" values="-15;15;45;75;105;135;165;195;225;255;285;315;345" calcMode="discrete" dur="9.6s" repeatCount="indefinite"/>
+    </path>
+    <g class="sans" fill="#E8E2FF" font-size="11.5" font-weight="700" text-anchor="middle">
+      <text x="0" y="-52">C</text><text x="28.5" y="-45">G</text><text x="49.5" y="-23.5">D</text><text x="57" y="4">A</text>
+      <text x="49.5" y="32">E</text><text x="28.5" y="53">B</text><text x="0" y="61">F♯</text><text x="-28.5" y="53">D♭</text>
+      <text x="-49.5" y="32">A♭</text><text x="-57" y="4">E♭</text><text x="-49.5" y="-23.5">B♭</text><text x="-28.5" y="-45">F</text>
+    </g>
+    <circle class="beat" r="6" fill="#7BD0B6"/>
+    <text y="24" text-anchor="middle" class="mono" fill="#8F86BD" font-size="9">♩ = 92</text>
+  </g>
+
+  <text x="24" y="238" class="sans" fill="#F1EDFF" font-size="19" font-weight="600">A private practice room for your guitar.</text>
+</svg>

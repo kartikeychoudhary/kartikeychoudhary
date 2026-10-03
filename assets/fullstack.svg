@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="372" viewBox="0 0 1000 372" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">One request, every layer</title>
+  <desc id="desc">Animated diagram: a request travels from the interface layer through services to data and back as a response, on top of a container infrastructure layer, with an applied-AI module wired into the services layer. Interface: Angular, React, Jetpack Compose, Flutter. Services: Spring Boot, FastAPI, Node.js, Kotlin. Data: PostgreSQL, MySQL, SQLite, SQLCipher. Infra: Docker, Nginx, GitHub Actions, Cloudflare. Applied AI: distillation, LoRA, GGUF, llama.cpp.</desc>
+  <style>
+    .sans{font-family:'Segoe UI',Inter,Arial,Helvetica,sans-serif}
+    .mono{font-family:'JetBrains Mono','Cascadia Code',Consolas,Menlo,monospace}
+    .L1{animation:L1 6s infinite}.L2{animation:L2 6s infinite}.L3{animation:L3 6s infinite}
+    @keyframes L1{0%,6%,17%,83%,94%,100%{stroke-opacity:.25}11%,89%{stroke-opacity:1}}
+    @keyframes L2{0%,25%,37%,63%,75%,100%{stroke-opacity:.25}31%,69%{stroke-opacity:1}}
+    @keyframes L3{0%,43%,57%,100%{stroke-opacity:.25}50%{stroke-opacity:1}}
+    .req{animation:req 6s infinite}.res{animation:res 6s infinite}
+    @keyframes req{0%,46%{opacity:1}50%,100%{opacity:0}}
+    @keyframes res{0%,50%{opacity:0}54%,100%{opacity:1}}
+    .ctr{animation:ctr 5s linear infinite}
+    @keyframes ctr{from{transform:translateX(0)}to{transform:translateX(-48px)}}
+    .nn{animation:nn 1.6s ease-in-out infinite}
+    .nn1{animation-delay:.25s}.nn2{animation-delay:.5s}.nn3{animation-delay:.75s}
+    @keyframes nn{0%,100%{opacity:.3}50%{opacity:1}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="1000" y2="372" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A0F1D"/><stop offset="1" stop-color="#11122A"/>
+    </linearGradient>
+    <clipPath id="infra"><rect x="400" y="288" width="218" height="56"/></clipPath>
+    <filter id="fglow" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+  <rect width="1000" height="372" rx="16" fill="url(#fbg)"/>
+  <rect x=".5" y=".5" width="999" height="371" rx="15.5" stroke="#232A48"/>
+  <text x="40" y="36" class="sans" fill="#9AA3C2" font-size="11.5" font-weight="700" letter-spacing="2.2">ONE REQUEST, EVERY LAYER</text>
+  <text x="620" y="36" text-anchor="end" class="mono" fill="#4E5880" font-size="11">the whole round trip is the job</text>
+
+  <!-- layers -->
+  <g class="sans">
+    <rect class="L1" x="40" y="60" width="580" height="56" rx="12" fill="#121A33" stroke="#7DD3FC" stroke-width="1.5"/>
+    <rect x="40" y="60" width="6" height="56" rx="3" fill="#7DD3FC"/>
+    <text x="64" y="83" fill="#7DD3FC" font-size="11" font-weight="700" letter-spacing="1.8">INTERFACE</text>
+    <text x="64" y="104" fill="#E8ECF8" font-size="14">Angular · React · Jetpack Compose · Flutter · Tailwind</text>
+    <text x="604" y="83" text-anchor="end" class="mono" fill="#4E5880" font-size="10.5">pixels</text>
+
+    <rect class="L2" x="40" y="136" width="580" height="56" rx="12" fill="#161631" stroke="#A78BFA" stroke-width="1.5"/>
+    <rect x="40" y="136" width="6" height="56" rx="3" fill="#A78BFA"/>
+    <text x="64" y="159" fill="#A78BFA" font-size="11" font-weight="700" letter-spacing="1.8">SERVICES</text>
+    <text x="64" y="180" fill="#E8ECF8" font-size="14">Spring Boot · FastAPI · Node.js · Kotlin</text>
+    <text x="604" y="159" text-anchor="end" class="mono" fill="#4E5880" font-size="10.5">contracts</text>
+
+    <rect class="L3" x="40" y="212" width="580" height="56" rx="12" fill="#0F1E24" stroke="#2DD4BF" stroke-width="1.5"/>
+    <rect x="40" y="212" width="6" height="56" rx="3" fill="#2DD4BF"/>
+    <text x="64" y="235" fill="#2DD4BF" font-size="11" font-weight="700" letter-spacing="1.8">DATA</text>
+    <text x="64" y="256" fill="#E8ECF8" font-size="14">PostgreSQL · MySQL · SQLite · SQLCipher</text>
+    <text x="604" y="235" text-anchor="end" class="mono" fill="#4E5880" font-size="10.5">rows</text>
+
+    <rect x="40" y="288" width="580" height="56" rx="12" fill="#1A1622" stroke="#FFB547" stroke-opacity=".45" stroke-width="1.5"/>
+    <rect x="40" y="288" width="6" height="56" rx="3" fill="#FFB547"/>
+    <text x="64" y="311" fill="#FFB547" font-size="11" font-weight="700" letter-spacing="1.8">INFRA</text>
+    <text x="64" y="332" fill="#E8ECF8" font-size="14">Docker · Nginx · GitHub Actions · Cloudflare</text>
+  </g>
+  <g clip-path="url(#infra)">
+    <g class="ctr" fill="#FFB547">
+      <rect x="430" y="318" width="22" height="14" rx="3" opacity=".7"/><rect x="478" y="318" width="22" height="14" rx="3" opacity=".45"/>
+      <rect x="526" y="318" width="22" height="14" rx="3" opacity=".7"/><rect x="574" y="318" width="22" height="14" rx="3" opacity=".45"/>
+      <rect x="622" y="318" width="22" height="14" rx="3" opacity=".7"/><rect x="670" y="318" width="22" height="14" rx="3" opacity=".45"/>
+    </g>
+  </g>
+
+  <!-- request wire -->
+  <path d="M620 88H650M620 164H650M620 240H650" stroke="#2A3358" stroke-width="1.5"/>
+  <path d="M650 48V240" stroke="#2A3358" stroke-width="2"/>
+  <g>
+    <circle r="11" fill="#22D3EE" filter="url(#fglow)" opacity=".7">
+      <animate attributeName="fill" values="#22D3EE;#FFB547" keyTimes="0;.5" calcMode="discrete" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="5.5" fill="#22D3EE">
+      <animate attributeName="fill" values="#22D3EE;#FFB547" keyTimes="0;.5" calcMode="discrete" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <animateMotion dur="6s" repeatCount="indefinite" path="M650 44V240V44"/>
+  </g>
+  <g class="mono" font-size="11">
+    <text class="req" x="664" y="124" fill="#22D3EE">GET /ledger ↓</text>
+    <text class="res" x="664" y="124" fill="#FFB547">200 OK · json ↑</text>
+  </g>
+
+  <!-- applied AI -->
+  <path d="M760 164H656" stroke="#FF6B9A" stroke-width="1.5" stroke-dasharray="4 5">
+    <animate attributeName="stroke-dashoffset" values="0;18" dur=".9s" repeatCount="indefinite"/>
+  </path>
+  <rect x="760" y="60" width="200" height="208" rx="14" fill="#1A0F22" stroke="#FF6B9A" stroke-opacity=".6" stroke-width="1.5"/>
+  <text x="780" y="86" class="sans" fill="#FF6B9A" font-size="11" font-weight="700" letter-spacing="1.8">APPLIED AI</text>
+  <g stroke="#5A2B52"><path d="M800 120l40-14M800 120l40 14M800 148l40-42M800 148l40-14M840 106l40 22M840 134l40-6M880 128l40 0"/></g>
+  <g fill="#FF6B9A">
+    <circle class="nn" cx="800" cy="120" r="6"/><circle class="nn" cx="800" cy="148" r="6"/>
+    <circle class="nn nn1" cx="840" cy="106" r="6"/><circle class="nn nn1" cx="840" cy="134" r="6"/>
+    <circle class="nn nn2" cx="880" cy="128" r="6"/><circle class="nn nn3" cx="920" cy="128" r="6" fill="#FFD166"/>
+  </g>
+  <g class="sans" fill="#F6DCE8" font-size="13">
+    <text x="780" y="196">Distillation · LoRA</text>
+    <text x="780" y="216">GGUF · llama.cpp</text>
+    <text x="780" y="236">Agent workflows</text>
+  </g>
+  <text x="780" y="256" class="mono" fill="#8E5C80" font-size="10">small, local, verifiable</text>
+
+  <text x="760" y="311" class="sans" fill="#9AA3C2" font-size="11" font-weight="700" letter-spacing="1.8">SHIPS TO</text>
+  <text x="760" y="332" class="sans" fill="#E8ECF8" font-size="14">Web · Android · Browser</text>
+</svg>

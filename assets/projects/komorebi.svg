@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="260" viewBox="0 0 600 260" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Komorebi — a window seat to somewhere.</title>
+  <desc id="desc">Animated illustration: a metro carriage window at dusk with scenery gliding past, rain on the glass, sunlight shafts, and a music equaliser.</desc>
+  <style>
+    .sans{font-family:'Segoe UI',Inter,Arial,Helvetica,sans-serif}
+    .mono{font-family:'JetBrains Mono','Cascadia Code',Consolas,Menlo,monospace}
+    .far{animation:pan 26s linear infinite}
+    .near{animation:pan 9s linear infinite}
+    .poles{animation:pan2 1.6s linear infinite}
+    @keyframes pan{from{transform:translateX(0)}to{transform:translateX(-360px)}}
+    @keyframes pan2{from{transform:translateX(0)}to{transform:translateX(-120px)}}
+    .rain{animation:rain .9s linear infinite}
+    .rain2{animation-duration:1.3s;animation-delay:-.4s}
+    @keyframes rain{from{transform:translate(0,-160px)}to{transform:translate(-40px,0)}}
+    .shaft{animation:shaft 5s ease-in-out infinite}
+    .shaft2{animation-delay:-2.2s}
+    @keyframes shaft{0%,100%{opacity:.05}50%{opacity:.18}}
+    .st{opacity:0;animation:st 12s infinite}
+    .st2{animation-delay:3s}.st3{animation-delay:6s}.st4{animation-delay:9s}
+    @keyframes st{0%{opacity:0}2%,24%{opacity:1}26%,100%{opacity:0}}
+    .petal{animation:petal 7s linear infinite}
+    .petal2{animation-delay:-3.5s;animation-duration:9s}
+    @keyframes petal{0%{transform:translate(0,0) rotate(0);opacity:0}10%{opacity:1}100%{transform:translate(-150px,190px) rotate(320deg);opacity:0}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}.st1{opacity:1}}
+  </style>
+  <defs>
+    <clipPath id="win"><rect x="24" y="48" width="360" height="152" rx="22"/></clipPath>
+    <clipPath id="card"><rect width="600" height="260" rx="14"/></clipPath>
+    <linearGradient id="sky" x1="0" y1="48" x2="0" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3B2A6B"/><stop offset=".45" stop-color="#C2577A"/><stop offset=".8" stop-color="#FF9A5C"/><stop offset="1" stop-color="#FFD08A"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(250 150) scale(90)">
+      <stop stop-color="#FFF1C9"/><stop offset=".25" stop-color="#FFD08A" stop-opacity=".9"/><stop offset="1" stop-color="#FF9A5C" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#FFD9A0"/><stop offset="1" stop-color="#FFD9A0" stop-opacity="0"/>
+    </linearGradient>
+    <g id="far"><path d="M0 170 40 138l34 20 46-44 52 40 30-22 52 34 40-30 66 34V200H0z" fill="#6B3A72"/></g>
+    <g id="near">
+      <path d="M0 186c30-14 60-14 90-6s60 8 90-2 60-12 90-2 60 10 90 2V200H0z" fill="#2C1838"/>
+      <g fill="#FFB7C5"><circle cx="40" cy="172" r="13"/><circle cx="54" cy="166" r="10"/><circle cx="210" cy="174" r="12"/><circle cx="224" cy="168" r="9"/><circle cx="300" cy="176" r="10"/></g>
+      <g stroke="#2C1838" stroke-width="3"><path d="M46 200v-22M216 200v-22M302 200v-16"/></g>
+    </g>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="600" height="260" fill="#150E22"/>
+    <rect y="214" width="600" height="46" fill="#1C1330"/>
+    <path d="M0 214H600" stroke="#2D2145"/>
+
+    <text x="24" y="32" class="sans" fill="#FFB7C5" font-size="11" font-weight="700" letter-spacing="2">02 / IMMERSIVE WEB · REACT · SPOTIFY PKCE</text>
+
+    <!-- window -->
+    <g clip-path="url(#win)">
+      <rect x="24" y="48" width="360" height="152" fill="url(#sky)"/>
+      <circle cx="250" cy="150" r="90" fill="url(#sun)"/>
+      <circle cx="250" cy="150" r="16" fill="#FFF1C9"/>
+      <g class="far"><use href="#far" x="24"/><use href="#far" x="384"/></g>
+      <g class="near"><use href="#near" x="24"/><use href="#near" x="384"/></g>
+      <g class="poles" stroke="#120A1C" stroke-width="5"><path d="M60 48v152M180 48v152M300 48v152M420 48v152M540 48v152"/></g>
+      <path d="M24 64H400" stroke="#120A1C" stroke-width="2" opacity=".7"/>
+      <g stroke="#E7E4FF" stroke-width="1.2" stroke-linecap="round" opacity=".45">
+        <g class="rain"><path d="M60 60l-5 14M120 90l-5 14M170 50l-5 14M230 110l-5 14M290 70l-5 14M350 100l-5 14M100 150l-5 14M260 160l-5 14M380 140l-5 14"/></g>
+        <g class="rain rain2"><path d="M80 120l-5 14M140 40l-5 14M200 130l-5 14M320 40l-5 14M370 60l-5 14M40 100l-5 14M300 120l-5 14"/></g>
+      </g>
+    </g>
+    <rect x="24" y="48" width="360" height="152" rx="22" stroke="#4A3766" stroke-width="6"/>
+    <path d="M204 51v146" stroke="#4A3766" stroke-width="5"/>
+
+    <!-- light shafts on the floor -->
+    <path class="shaft" d="M70 200h60l26 30H86z" fill="url(#beam)"/>
+    <path class="shaft shaft2" d="M250 200h70l30 30h-56z" fill="url(#beam)"/>
+    <g fill="#FFB7C5">
+      <ellipse class="petal" cx="560" cy="40" rx="4" ry="2.4"/>
+      <ellipse class="petal petal2" cx="500" cy="20" rx="3.5" ry="2"/>
+    </g>
+
+    <!-- right: player -->
+    <text x="404" y="78" class="sans" fill="#FFE3EA" font-size="30" font-weight="300">木漏れ日</text>
+    <text x="404" y="98" class="mono" fill="#B9A3D6" font-size="10.5">komorebi.kartikey.cv</text>
+    <text x="404" y="128" class="sans" fill="#8C78AD" font-size="9.5" font-weight="700" letter-spacing="1.6">NEXT STATION</text>
+    <g class="sans" fill="#FFD08A" font-size="15" font-weight="600">
+      <text class="st st1" x="404" y="148">Tokyo</text>
+      <text class="st st2" x="404" y="148">Mumbai</text>
+      <text class="st st3" x="404" y="148">London</text>
+      <text class="st st4" x="404" y="148">New York</text>
+    </g>
+    <g fill="#FF8FAB">
+      <rect x="404" y="170" width="6" height="20" rx="3"><animate attributeName="height" values="6;24;10;20;6" dur="1.1s" repeatCount="indefinite"/><animate attributeName="y" values="184;166;180;170;184" dur="1.1s" repeatCount="indefinite"/></rect>
+      <rect x="414" y="170" width="6" height="20" rx="3"><animate attributeName="height" values="18;8;26;12;18" dur=".9s" repeatCount="indefinite"/><animate attributeName="y" values="172;182;164;178;172" dur=".9s" repeatCount="indefinite"/></rect>
+      <rect x="424" y="170" width="6" height="20" rx="3"><animate attributeName="height" values="10;22;6;26;10" dur="1.3s" repeatCount="indefinite"/><animate attributeName="y" values="180;168;184;164;180" dur="1.3s" repeatCount="indefinite"/></rect>
+      <rect x="434" y="170" width="6" height="20" rx="3"><animate attributeName="height" values="22;10;18;6;22" dur="1s" repeatCount="indefinite"/><animate attributeName="y" values="168;180;172;184;168" dur="1s" repeatCount="indefinite"/></rect>
+      <rect x="444" y="170" width="6" height="20" rx="3"><animate attributeName="height" values="8;20;12;24;8" dur="1.2s" repeatCount="indefinite"/><animate attributeName="y" values="182;170;178;166;182" dur="1.2s" repeatCount="indefinite"/></rect>
+    </g>
+    <text x="462" y="186" class="sans" fill="#B9A3D6" font-size="11">rain · dusk · 17 lines</text>
+
+    <text x="24" y="244" class="sans" fill="#FFF1E6" font-size="19" font-weight="600">A window seat to somewhere.</text>
+  </g>
+  <rect x=".5" y=".5" width="599" height="259" rx="13.5" stroke="#3A2A55"/>
+</svg>
